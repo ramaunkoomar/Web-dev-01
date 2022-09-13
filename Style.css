@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.wall img {
+  width: 100%;
+}
+
+.category {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.category img {
+  width: 20%;
+  border-radius: 12px;
+}
+
+.category img:hover {
+  -webkit-box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 1);
+}
+
+.cat {
+  padding: 40px 50px;
+}
+
+.cat h3 {
+  margin-bottom: 25px;
+}
+
+.fav figcaption {
+  margin-top: 20px;
+}
+
+.fav {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.fav figure img {
+  width: 100%;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.fav figure figcaption p {
+  margin-bottom: 0;
+}
+
+.fav figure figcaption {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.fav figcaption button {
+  padding: 3px 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.fav figure img:hover {
+  -webkit-box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 1);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.gadgets {
+    margin-top: 80px;
+    padding: 0 30px;
+}
+
+.gadgets .fav img {
+    height: 340px;
+}
+
+.table {
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.table h2 {
+    text-decoration: underline;
+}
+
+.itemss {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+.cart {
+    padding: 8vw;
+}
+
+.product .list {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+    font-size: 1.3vw;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.product hr {
+    opacity: 0.2;
+    color: grey;
+}
+
+.product .list img {
+    border-radius: 50vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.product .list button {
+    border-radius: 2vw;
+    width: 8vw;
+    border: #2c2c2c;
+    font-size: 1.5vw;
+    height: 3vw;
+}
+
+.product .list h5 {
+    font-size: 1.5vw;
+}
